@@ -65,6 +65,8 @@ p {
     margin: 0 auto;
     
 }
+
+
 header nav {
     width: 45%;
 	display: flex;
@@ -176,6 +178,7 @@ header img {
     justify-content: center;
     background-color: forestgreen;
 }
+
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
@@ -187,6 +190,7 @@ header img {
     justify-content: center;
     background-color: darkorchid;
 }
+
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
@@ -198,6 +202,7 @@ header img {
     justify-content: center;
     background-color: hotpink;
 }
+
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
@@ -220,6 +225,81 @@ header img {
     justify-content: center;
     background-color: doderblue;
 }
+
+.AboutImg {
+    width: 100%;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+}
+
+.strategySection {
+   width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   float: left;
+   padding-top: 1.6rem;
+    
+}
+
+.strategySection button {
+    border: 2px inset black;
+    border-radius: 20px;  
+}
+
+.workSection {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.6rem;
+}
+
+.workSection button {
+    border: 2px inset black;
+    border-radius: 20px;  
+}
+
+.placesSection {
+   width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   float: left;
+   padding-top: 2rem
+}
+
+.placesSection button {
+    border: 2px inset black;
+    border-radius: 20px;  
+}
+
+.collabSection {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.collabSection button {
+    border: 2px inset black;
+    border-radius: 20px;  
+}
+
+h1 {
+    padding-top: 1rem;
+}
+
+.lastParagraph {
+    padding-bottom: 1.6rem;
+}
+
+
+
+
+
 
 .bottom-content {
     display: flex;
