@@ -227,12 +227,11 @@ header img {
 }
 
 .AboutImg {
-    width: 100%;
-    display: flex;
+    width: 90%;
+    text-align: center;
     padding-left: 20%;
     padding-right: 10%;
-    padding-top: 5%;
-
+    padding-bottom: 20px;
 }
 
 .strategySection {
@@ -296,11 +295,6 @@ h1 {
     padding-bottom: 1.6rem;
 }
 
-
-
-
-
-
 .bottom-content {
     display: flex;
     flex-wrap: wrap;
@@ -315,20 +309,9 @@ h1 {
     padding-bottom: 20px;  
 }
 
-footer {
-    justify-content: space-between;
-    box-sizing: 10%;
+.AboutImg img {
     width: 100%;
-    color: white;
-    background: black;
-}
-.AboutImg {
-    width: 100%;
-    display: flex;
-    padding-left: 20%;
-    padding-right: 10%;
-    padding-top: 5%;
-
+    display: flex;  
 }
 
 .strategySection {
@@ -390,6 +373,12 @@ h1 {
 
 .lastParagraph {
     padding-bottom: 1.6rem;
+}
+
+footer {
+    width: 100%;
+    justify-content: space-evenly;
+    background: black;
 }
 
 
